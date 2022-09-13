@@ -9,3 +9,25 @@ n2 = int.Parse(Console.ReadLine());
 Console.WriteLine("Operator : ");
 op = Console.ReadLine();
 
+switch (op)
+    {
+        case "+":
+            result = a+b;
+            break;
+        case "-":
+            result =a - b;
+            break;
+        case "/":
+            result=a / b;
+            break;
+        case "*":
+            result=a * b;
+            break;
+        case "%":
+            result=a % b;
+            break;
+        default:
+            Console.WriteLine("Invalid Operator!!!");
+            break;
+    }
+
