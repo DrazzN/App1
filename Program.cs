@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+int n1 = 0, n2 =0;
+string op = "";
+
+Console.WriteLine("Enter First Number : ");
+n1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter Second Number : ");
+n2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Operator : ");
+op = Console.ReadLine();
+
