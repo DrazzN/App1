@@ -36,3 +36,7 @@ n2 = int.Parse(Console.ReadLine());
 Console.WriteLine("Operator : ");
 op = Console.ReadLine();
 Operation(n1,n2,op);
+
+
+Console.WriteLine("Press any key to close the app....");
+Console.ReadKey();
